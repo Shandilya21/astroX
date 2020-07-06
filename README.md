@@ -1,5 +1,5 @@
 ![astroX](https://github.com/shandilya21/astroX/raw/master/logo.png)
-<img src="logo.png" alt="Logo" width="100" height="100">
+<img src="logo.png" alt="Logo" width="600" height="600">
 
 ## :rocket: astro X - AI Bot 
 An AI bot designed to explore and study about Astronomy and developed using Rasa. Astronomy was always an exciting topics to almost everyone. Inspired by the beauty of space, the objective is to make the far-away stars, galaxies, planets more accessible to people who want to learn general questions about planets, space science and become connected to the night sky overhead.
