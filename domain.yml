@@ -1,0 +1,52 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - faq_astronomy
+  - faq_space
+  - faq_telescopes
+  - faq_planets
+  - faq_mission_at_isro
+  - faq_mission_at_nasa
+  - faq_black_hole
+  - faq_star_and_galaxies
+
+responses:
+  utter_greet:
+  - text: "Hey! I'm Samy an astroX bot. Want to explore space?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+  
+  utter_sad:
+  - text: "Thanks, I appreciate that, and I'm sorry 😔"
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+actions:
+- action_faq_astronomy
+- action_faq_space
+- action_faq_telescopes
+- action_faq_planets
+- action_faq_mission_at_isro
+- action_faq_mission_at_nasa
+- action_faq_black_hole
+- action_faq_star_and_galaxies
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
