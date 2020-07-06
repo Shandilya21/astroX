@@ -1,4 +1,5 @@
 ![astroX](https://github.com/shandilya21/astroX/raw/master/logo.png)
+<img src="logo.png" alt="Logo" width="100" height="100">
 
 ## :rocket: astro X - AI Bot 
 An AI bot designed to explore and study about Astronomy and developed using Rasa. Astronomy was always an exciting topics to almost everyone. Inspired by the beauty of space, the objective is to make the far-away stars, galaxies, planets more accessible to people who want to learn general questions about planets, space science and become connected to the night sky overhead.
@@ -13,7 +14,7 @@ An AI bot designed to explore and study about Astronomy and developed using Rasa
 * check the pip version (pip>0.19). Incase lower version, upgrade the pip version using ```pip install --upgrade pip```.
 
 #### Virtual env using __Anaconda__ (Ubuntu)
-* Install Anaconda, if not install and configured in your system from [**(Conda)**](https://www.anaconda.com/products/individual).
+* Install Anaconda, if not install in your system from [**(Conda)**](https://www.anaconda.com/products/individual).
 * After successful installation run ``` conda create -n <name_of_virtual_env> ```. Add/Update the version of python in conda path,
 version supported (3.6 - 3.7).
 
@@ -23,9 +24,10 @@ version supported (3.6 - 3.7).
 ### Setup astroX bot :rocket:
 Clone the repository for astroX bot
 
-``` $ git clone https://github.com/Shandilya21/astroX.git
-	$ cd astroX
-	$ pip install -r requirement.txt
+``` 
+$ git clone https://github.com/Shandilya21/astroX.git
+$ cd astroX
+$ pip install -r requirement.txt
 ```
 
 #### Rasa Server
