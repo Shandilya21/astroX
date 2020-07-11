@@ -40,9 +40,9 @@ To run the astroX bot and begins the exciting space adventures, fast you seat be
 ``` rasa run actions --actions actions ```
 
 #### Credentials and Deployment
-* Incase of using credentials (host on faceboo messenger, slack, etc.) please follow the Rasa Official [(Docs)](https://rasa.com/docs/rasa/user-guide/messaging-and-voice-channels/)
+* Incase of using credentials (host on channels such as facebook messenger, slack, etc.) kindly follow the Rasa Official [(Docs)](https://rasa.com/docs/rasa/user-guide/messaging-and-voice-channels/)
 
-* For deploying this Rasa Assistant, you can use one line deployment script that install Kubernetes cluster on your machine with sensible defaults. For more in details, search teh Rasa official [(Docs)](https://rasa.com/docs/rasa/user-guide/how-to-deploy/)
+* For deploying this Rasa Assistant, you can use one line deployment script that install Kubernetes cluster on your machine with sensible defaults. For more in details, search the Rasa official [(Docs)](https://rasa.com/docs/rasa/user-guide/how-to-deploy/)
 
 ``` curl -s get-rasa-x.rasa.com | sudo bash ```
 
@@ -56,4 +56,4 @@ Contributions are very welcome. If you know how to make this code better, please
 
 ### TODO
 * Add more data related to space science.
-* Add quiz session related to outer space.
+* Add space science quiz session.
